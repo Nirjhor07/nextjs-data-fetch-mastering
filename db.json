@@ -2,33 +2,38 @@
   "products": [
     {
       "id": 1,
-      "name": "Wireless Mouse",
+      "name": "Wireless dfrthgwsetr",
       "price": 1200,
-      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400&h=300&fit=crop"
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400&h=300&fit=crop",
+      "description": "Ergonomic wireless mouse with smooth tracking and long battery life, perfect for everyday work and gaming."
     },
     {
       "id": 2,
       "name": "Mechanical Keyboard",
       "price": 3500,
-      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&h=300&fit=crop"
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&h=300&fit=crop",
+      "description": "High-performance mechanical keyboard featuring tactile switches and RGB lighting for a premium typing experience."
     },
     {
       "id": 3,
       "name": "Running Shoes",
       "price": 2800,
-      "image": "https://images.unsplash.com/photo-1528701800489-20be3c7c6c8b?w=400&h=300&fit=crop"
+      "image": "https://images.unsplash.com/photo-1528701800489-20be3c7c6c8b?w=400&h=300&fit=crop",
+      "description": "Lightweight and breathable running shoes designed for comfort, durability, and enhanced performance."
     },
     {
       "id": 4,
       "name": "Smart Watch",
       "price": 5200,
-      "image": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?w=400&h=300&fit=crop"
+      "image": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?w=400&h=300&fit=crop",
+      "description": "Feature-rich smartwatch with fitness tracking, heart rate monitoring, and smart notifications."
     },
     {
       "id": 5,
       "name": "Backpack",
       "price": 1500,
-      "image": "https://images.unsplash.com/photo-1502920917128-1aa500764b54?w=400&h=300&fit=crop"
+      "image": "https://images.unsplash.com/photo-1502920917128-1aa500764b54?w=400&h=300&fit=crop",
+      "description": "Durable and spacious backpack with multiple compartments, ideal for school, travel, and daily use."
     }
   ]
 }
