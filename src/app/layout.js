@@ -21,9 +21,9 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full hydrated`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full`}
     >
-      <body className="min-h-full flex flex-col suppressHydrationWarning">
+      <body suppressHydrationWarning className="min-h-full flex flex-col">
         {/* <main> */}
           <Navbar></Navbar>
           {children}
