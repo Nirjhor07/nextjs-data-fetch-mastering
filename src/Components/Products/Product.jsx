@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Product = ({ prod }) => {
   return (
     <div className="card card-border bg-base-100 w-96">
@@ -6,7 +8,9 @@ const Product = ({ prod }) => {
         <p>{prod.description}</p>
         <p>${prod.price}</p>
         <div className="card-actions justify-end">
-          <button className="btn btn-primary">Buy Now</button>
+          <Link href={`/products/${prod.id}`}>
+            <button className="btn btn-primary">Buy Now</button>
+          </Link>
         </div>
       </div>
     </div>

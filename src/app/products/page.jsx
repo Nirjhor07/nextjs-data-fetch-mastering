@@ -4,7 +4,7 @@ import { revalidateTag } from "next/cache";
 // function to fetch products data
 const productsPromise = async () => {
   const res = await fetch("http://localhost:5000/products", {
-    next: { revalidate: 3 },
+    cache: "no-store",
   });
   //    cache: "no-store", kisu store kore rakhe na real time update hoye jay like football match score
   //   cache: "force-cache" // stored the data in cache memory
